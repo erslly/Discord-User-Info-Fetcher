@@ -21,10 +21,14 @@ Bu proje, bir Discord kullanıcısının bilgilerini Discord API'si aracılığ�
    ```bash
    git clone https://github.com/erslly/Discord-User-Info-Fetcher.git
 
-2. Projenin Proxysisini Çalıştırın 
+2. Bağlılıkları Kurun 
+    ```bash
+    npm install
+
+3. Projenin Proxysisini Çalıştırın 
      ```bash
      node server.js
 
-3. Daha Sonra İndex.html'i Çalıştırıp İstediğiniz ID'yi girin.
+4. Daha Sonra İndex.html'i Çalıştırıp İstediğiniz ID'yi girin.
      
    
