@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discord Kullanıcı Profili</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="input-container">
+    <input type="text" id="discordIdInput" placeholder="Discord ID girin">
+    <button onclick="fetchUserInfo()">Getir</button>
+  </div>
+  
+  <div class="profile-card" id="profile-card" style="display: none;">
+    <div class="banner" id="banner"></div>
+    <div class="avatar-container">
+      <img id="avatar" src="" alt="Profil Resmi">
+      <span id="status-indicator"></span>
+    </div>
+    <div class="profile-info">
+      <h2 id="username">Kullanıcı Adı</h2>
+      <p id="badges"></p>
+      <button id="addFriendButton" onclick="addFriend()" style="margin-top: 10px;">Arkadaş Ekle</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
